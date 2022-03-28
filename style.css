@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    width: 100%;
+    height:100vh;
+    text-align: center;
+
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.showbar{
+    display: flex;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+.playerbar{
+    
+    color:white;
+    width: 15rem;
+    border: 1px solid bisque;
+    border-radius: 50%;
+    height: 15rem;
+
+}
+.contbar{
+    /* border: 2px solid black; */
+    margin:2rem 1rem ;
+}
+.vs{
+   
+    margin: auto 0px;
+    font-size: 2rem;
+    border: 2px solid #1d3557;
+    border-radius: 50%;
+    padding: 1rem;
+    
+}
+.name{
+    padding: .5rem;
+}
+.clickbar{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.welcome{
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.declare{
+    
+    border: 1px solid black;
+    width: 40%;
+    margin:1rem auto;
+    padding: .5rem;
+    border-radius: 100px;
+}
+
+button{
+    width: 33%;
+    border-radius: 70px;
+    border: 3px solid #b4d4ca;
+    font-size: .9rem;
+    padding: .8rem 0;
+   color: white;
+   background-color: #f1c0e8;
+
+}
+.playerbtn{
+    background-color: #ee9b00;
+    border: 3px solid #94d2bd;
+    transition: all .5s;
+}
+.playerbtn:hover{
+    background-color: #0a9396;
+    
+    color: white;
+}
+.player1{
+background-image: url("/img/player.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover
+}
+.player2{
+    background-image: url("/img/computer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.reload{
+    background-color: #1d3557;
+    border: none;
+    width: 40%;  
+    margin:1rem auto;
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+.reload:hover{
+    background-color: rgb(212, 226, 226);
+    color: #1d3557;
+    transform: translate(0,-5px)
+}
