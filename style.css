@@ -94,13 +94,13 @@ button{
     color: white;
 }
 .player1{
-background-image: url("img/player.png");
+background-image: url("/img/player.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size:cover
 }
 .player2{
-    background-image: url("img/computer.png");
+    background-image: url("/img/computer.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover
@@ -117,4 +117,132 @@ background-size:cover
     background-color: rgb(212, 226, 226);
     color: #1d3557;
     transform: translate(0,-5px)
+}
+@media(max-width:600px){
+    .welcome{
+       
+        font-size: 1.4rem;
+        margin: 2rem 0;
+        margin: 0;
+    }
+    .declare{
+    
+       
+        width: 80%;
+        margin:1rem auto;
+        padding: .5rem;
+        
+        font-size: 1rem;
+        margin: 1rem auto;
+    }
+    .playerbar{
+    
+       
+        width: 10rem;
+        
+       
+        height: 10rem;
+    
+    }
+    .contbar{
+        border: 2px solid black;
+        margin:.5rem .5rem ;
+    }
+    .vs{
+       
+        margin: auto 0px;
+        font-size: 1.4rem;
+        border: 2px solid #1d3557;
+        border-radius: 50%;
+        padding: .5rem;
+        
+    }
+    .reload{
+        
+        
+        width: 35%;  
+        margin:1rem auto;
+        font-size: 1.3rem;
+        transition: all .5s;
+       
+    }
+    .reload:hover{
+        
+        transform: translate(0,-3px)
+    }
+    
+    
+}
+
+@media(max-width:400px){
+  
+    .welcome{
+       
+        font-size: 1rem;
+        margin-bottom:  1.3rem;
+        
+    }
+    .declare{
+    
+       
+        
+        margin:2rem auto;
+        padding: .5rem;
+        
+        font-size: 1rem;
+        margin: 1rem auto;
+    }
+    
+    .playerbar{
+        width: 8rem;
+        height: 8rem;
+    
+    }
+    .contbar{
+        border: 2px solid black;
+        margin:.5rem .5rem ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .name{
+        padding: .3rem;
+        font-size: .7rem;
+    }
+    button{
+        width: 33%;
+        border-radius: 70px;
+        border: 3px solid #b4d4ca;
+        font-size: .6rem;
+        padding: .3rem 0;
+       color: white;
+       background-color: #f1c0e8;
+    
+    }
+
+    .vs{
+       
+        margin: auto 0px;
+        font-size: 1.4rem;
+        border: 2px solid #1d3557;
+        border-radius: 50%;
+        padding: .5rem;
+        
+    }
+    .reload{
+        
+        
+        width: 35%;  
+        margin:1rem auto;
+        font-size: 1.3rem;
+        transition: all .5s;
+       
+    }
+    .reload:hover{
+        
+        transform: translate(0,-3px)
+    }
+    
+    
 }
