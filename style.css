@@ -94,13 +94,13 @@ button{
     color: white;
 }
 .player1{
-background-image: url("/img/player.png");
+background-image: url("img/player.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size:cover
 }
 .player2{
-    background-image: url("/img/computer.png");
+    background-image: url("img/computer.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover
