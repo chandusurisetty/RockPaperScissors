@@ -11,8 +11,8 @@ btns.forEach(btn => {
         if (playagain == true) {
             const place = rps[Math.floor(Math.random() * 3)]
 
-            player1.style.backgroundImage = `url('/img/${btn.innerText}.png')`
-            player2.style.backgroundImage = `url('/img/${place}.png')`;
+            player1.style.backgroundImage = `url('img/${btn.innerText}.png')`
+            player2.style.backgroundImage = `url('img/${place}.png')`;
 
 
             const rp = (btn.innerText == "ROCK" && place == "PAPER")
@@ -39,8 +39,8 @@ btns.forEach(btn => {
     })
 });
 reload.addEventListener("click", () => {
-    player1.style.backgroundImage = `url('/img/player.png')`
-    player2.style.backgroundImage = `url('/img/computer.png')`
+    player1.style.backgroundImage = `url('img/player.png')`
+    player2.style.backgroundImage = `url('img/computer.png')`
     declare.innerText = "Lets see who will win"
     btns.forEach(btn => {
         btn.disables = true;
